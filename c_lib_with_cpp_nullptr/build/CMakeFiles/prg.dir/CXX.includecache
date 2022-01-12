@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../c_lib/c_lib.h
+
+/home/ANT.AMAZON.COM/epawdroz/Projects/Sandbox/c_lib_with_cpp_nullptr/main.cpp
+c_lib.h
+/home/ANT.AMAZON.COM/epawdroz/Projects/Sandbox/c_lib_with_cpp_nullptr/c_lib.h
+cstddef
+-
+

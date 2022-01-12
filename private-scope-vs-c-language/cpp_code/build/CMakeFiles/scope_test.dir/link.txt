@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/scope_test.dir/main.cpp.o CMakeFiles/scope_test.dir/customType.cpp.o  -o scope_test   -L/home/ANT.AMAZON.COM/epawdroz/Projects/Sandbox/private-scope-vs-c-language/cpp_code/../c_code  -Wl,-rpath,/home/ANT.AMAZON.COM/epawdroz/Projects/Sandbox/private-scope-vs-c-language/cpp_code/../c_code -lmylib 

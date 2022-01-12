@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lib/lib.hpp
+optional
+-
+
+/home/ANT.AMAZON.COM/epawdroz/Projects/Sandbox/link-lib-with-higher-cpp-standard/main.cpp
+lib.hpp
+/home/ANT.AMAZON.COM/epawdroz/Projects/Sandbox/link-lib-with-higher-cpp-standard/lib.hpp
+

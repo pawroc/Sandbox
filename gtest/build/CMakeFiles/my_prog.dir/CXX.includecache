@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ANT.AMAZON.COM/epawdroz/Projects/Sandbox/gtest/foo.hpp
+
+/home/ANT.AMAZON.COM/epawdroz/Projects/Sandbox/gtest/main.cpp
+iostream
+-
+foo.hpp
+/home/ANT.AMAZON.COM/epawdroz/Projects/Sandbox/gtest/foo.hpp
+

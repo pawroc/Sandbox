@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ANT.AMAZON.COM/epawdroz/Projects/Sandbox/cmake-include-directories/lib/subLib/lib2.cpp
+lib2.hpp
+/home/ANT.AMAZON.COM/epawdroz/Projects/Sandbox/cmake-include-directories/lib/subLib/lib2.hpp
+
+/home/ANT.AMAZON.COM/epawdroz/Projects/Sandbox/cmake-include-directories/lib/subLib/lib2.hpp
+iostream
+-
+

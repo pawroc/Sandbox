@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/prg.dir/main.cpp.o  -o prg   -L/home/ANT.AMAZON.COM/epawdroz/Projects/Sandbox/c_lib_with_cpp_nullptr/c_lib  -Wl,-rpath,/home/ANT.AMAZON.COM/epawdroz/Projects/Sandbox/c_lib_with_cpp_nullptr/c_lib -lc_lib 

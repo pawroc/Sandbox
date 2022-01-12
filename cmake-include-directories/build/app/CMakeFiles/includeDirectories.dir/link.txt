@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/includeDirectories.dir/main.cpp.o  -o includeDirectories  ../lib/libmyLib.a 

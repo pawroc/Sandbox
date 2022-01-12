@@ -1,0 +1,3 @@
+add_executable(includeDirectories main.cpp)
+
+target_link_libraries(includeDirectories PRIVATE myLib)

@@ -1,0 +1,3 @@
+/home/ANT.AMAZON.COM/epawdroz/Projects/Sandbox/cmake_compile_definitions/build/CMakeFiles/rebuild_cache.dir
+/home/ANT.AMAZON.COM/epawdroz/Projects/Sandbox/cmake_compile_definitions/build/CMakeFiles/edit_cache.dir
+/home/ANT.AMAZON.COM/epawdroz/Projects/Sandbox/cmake_compile_definitions/build/CMakeFiles/main.dir
