@@ -1,4 +1,0 @@
-/home/ANT.AMAZON.COM/epawdroz/Projects/Sandbox/cmake_custom_command/app/build/CMakeFiles/rebuild_cache.dir
-/home/ANT.AMAZON.COM/epawdroz/Projects/Sandbox/cmake_custom_command/app/build/CMakeFiles/edit_cache.dir
-/home/ANT.AMAZON.COM/epawdroz/Projects/Sandbox/cmake_custom_command/app/build/CMakeFiles/main.dir
-/home/ANT.AMAZON.COM/epawdroz/Projects/Sandbox/cmake_custom_command/app/build/CMakeFiles/ExtDirTarget.dir

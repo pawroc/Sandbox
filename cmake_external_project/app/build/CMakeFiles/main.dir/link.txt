@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/main.dir/main.cpp.o  -o main   -L/home/ANT.AMAZON.COM/epawdroz/Projects/Sandbox/cmake_custom_command/app/build/ext_dir/lib  -Wl,-rpath,/home/ANT.AMAZON.COM/epawdroz/Projects/Sandbox/cmake_custom_command/app/build/ext_dir/lib -lfoo 
