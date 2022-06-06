@@ -1,6 +1,11 @@
 project(ExportedLibrary LANGUAGES CXX)
 cmake_minimum_required(VERSION 3.16)
 
+# For CPack usage
+include(CPack)
+set(CMAKE_DEBUG_POSTFIX d)
+
+# Targets
 add_library(${CMAKE_PROJECT_NAME})
 target_sources(${CMAKE_PROJECT_NAME}
     PRIVATE
@@ -12,6 +17,7 @@ target_include_directories(${CMAKE_PROJECT_NAME}
         $<INSTALL_INTERFACE:include>
 )
 
+# For cmake --install usage
 install(TARGETS ${CMAKE_PROJECT_NAME} EXPORT ${CMAKE_PROJECT_NAME}Targets
     LIBRARY  DESTINATION lib
     ARCHIVE  DESTINATION lib
@@ -28,7 +34,7 @@ write_basic_package_version_file(${CMAKE_PROJECT_NAME}ConfigVersion.cmake
     VERSION 1.0.0
     COMPATIBILITY SameMajorVersion)
 
-configure_package_config_file(${CMAKE_CURRENT_SOURCE_DIR}/Config.cmake.in
+configure_package_config_file(${CMAKE_CURRENT_LIST_DIR}/Config.cmake.in
     "${CMAKE_PROJECT_NAME}Config.cmake"
     INSTALL_DESTINATION "lib/cmake/${CMAKE_PROJECT_NAME}"
     NO_SET_AND_CHECK_MACRO
