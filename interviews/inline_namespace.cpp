@@ -20,11 +20,25 @@ inline namespace v2
     void foo() {
         std::cout << "v2\n";
     }
+
+    void boo() {
+        std::cout << "v2::boo\n";
+    }
+
 } // inline namespace v2
+
+namespace X
+{
+    void boo() {
+        std::cout << "X::boo\n";
+    }
+}
 
 void fuu() {
     v1::foo();
     v2::foo();
+    boo();
+    X::boo();
 }
 } // namespace Lib
 
